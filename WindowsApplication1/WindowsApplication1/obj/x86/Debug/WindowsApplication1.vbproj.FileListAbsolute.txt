@@ -1,0 +1,16 @@
+C:\Users\nishida.masashi\Desktop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\UserControl2.baml
+C:\Users\nishida.masashi\Desktop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\UserControl2.g.vb
+C:\Users\nishida.masashi\Desktop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1_MarkupCompile.cache
+C:\Users\nishida.masashi\Desktop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.g.resources
+C:\Users\nishida.masashi\Desktop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.AboutBox1.resources
+C:\Users\nishida.masashi\Desktop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Component1.resources
+C:\Users\nishida.masashi\Desktop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.LoginForm1.resources
+C:\Users\nishida.masashi\Desktop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.MDIParent1.resources
+C:\Users\nishida.masashi\Desktop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\nishida.masashi\Desktop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.vbproj.GenerateResource.Cache
+C:\Users\nishida.masashi\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.exe
+C:\Users\nishida.masashi\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.pdb
+C:\Users\nishida.masashi\Desktop\WindowsApplication1\WindowsApplication1\bin\Debug\WindowsApplication1.xml
+C:\Users\nishida.masashi\Desktop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.exe
+C:\Users\nishida.masashi\Desktop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.xml
+C:\Users\nishida.masashi\Desktop\WindowsApplication1\WindowsApplication1\obj\x86\Debug\WindowsApplication1.pdb
