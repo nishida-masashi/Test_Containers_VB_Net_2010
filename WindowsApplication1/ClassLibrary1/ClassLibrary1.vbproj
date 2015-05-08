@@ -114,7 +114,6 @@
   <ItemGroup>
     <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <None Include="Resources\windowsapplication1.exe" />
   </ItemGroup>

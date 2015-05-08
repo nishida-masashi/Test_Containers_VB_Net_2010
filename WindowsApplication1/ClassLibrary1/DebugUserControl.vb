@@ -4,6 +4,8 @@
     Private _assembly As System.Reflection.Assembly
     Private _control As Control
 
+    Const delimiter_str = "."
+
     ReadOnly Property LoadControl As Control
         Get
             Return _control
@@ -95,7 +97,7 @@
         If _control IsNot Nothing Then
             ErrorProvider1.Clear()
             sw = Stopwatch.StartNew
-            CheckButton(_control, _control.Name)
+            CheckButton(_control, "")
             sw.stop()
         End If
 
@@ -111,7 +113,7 @@
         End If
 
         For Each in_c In c.Controls
-            CheckButton(in_c, str + "." + c.Name)
+            CheckButton(in_c, str + c.Name + delimiter_str)
         Next
 
         If TypeOf c Is Button Then
@@ -119,7 +121,7 @@
                 PerformButton(c, str)
             Catch ex As Exception
                 ErrorProvider1.SetError(c, ex.Message)
-                LogMessage(str + "." + c.Name + ": NG")
+                LogMessage(str + c.Name + ": NG")
             End Try
         End If
     End Sub
@@ -145,7 +147,7 @@
     End Function
     Sub PerformButton(b As Button, str As String)
         If CheckCloseButton(b.Parent, b) Then
-            LogMessage(str + "." + b.Name + ": Unchecked")
+            LogMessage(str + b.Name + ": Unchecked")
             Return
         End If
 
@@ -153,7 +155,7 @@
         b.PerformClick()
         sw.Stop()
 
-        LogMessage(str + "." + b.Name + ": " + sw.ElapsedMilliseconds.ToString + " ms")
+        LogMessage(str + b.Name + ": " + sw.ElapsedMilliseconds.ToString + " ms")
     End Sub
 
     Sub ShowMessage(str As String)
