@@ -71,6 +71,7 @@
         InitializeComponent()
 
         ' InitializeComponent() 呼び出しの後で初期化を追加します。
+        Me.Dock = DockStyle.Fill
         SetTypesToComboBox(Nothing)
         ComboBox1.Text = "WindowsApplication1.Form1"
     End Sub
